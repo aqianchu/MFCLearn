@@ -87,6 +87,24 @@
     <ClInclude Include="AnonymousDialog.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ImproveProcessPrivilige.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDemoDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenCapDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MFCApplication1.cpp">
@@ -150,6 +168,24 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="AnonymousDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImproveProcessPrivilige.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDemoDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenCapDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerDialog.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -20,7 +20,12 @@
 #include "ThreadDialog.h"
 #include "ProcessDialog.h"
 #include "AnonymousDialog.h"
-
+#include "ImproveProcessPrivilige.h"
+#include "FileDemoDialog.h"
+#include "MySQLDialog.h"
+#include "SocketDialog.h"
+#include "ScreenCapDialog.h"
+#include "ComputerDialog.h"
 //自定义消息
 #define WM_MY_DEFINE_MSG WM_USER + 0x1
 // CMFCApplication1Dlg 对话框
@@ -79,4 +84,10 @@ public:
 	afx_msg void OnBnClickedButton17();
 	afx_msg void OnBnClickedButton18();
 	afx_msg void OnBnClickedButton19();
+	afx_msg void OnBnClickedButton20();
+	afx_msg void OnBnClickedButton21();
+	afx_msg void OnBnClickedButton22();
+	afx_msg void OnBnClickedButton23();
+	afx_msg void OnBnClickedButton24();
+	afx_msg void OnBnClickedButton25();
 };

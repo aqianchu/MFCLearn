@@ -28,7 +28,14 @@ void CModelTestDialog::DoDataExchange(CDataExchange* pDX)
 
 
 BEGIN_MESSAGE_MAP(CModelTestDialog, CDialogEx)
+	ON_BN_CLICKED(IDC_BUTTON1, &CModelTestDialog::OnBnClickedButton1)
 END_MESSAGE_MAP()
 
 
 // CModelTestDialog 消息处理程序
+
+
+void CModelTestDialog::OnBnClickedButton1()
+{
+	// TODO:  在此添加控件通知处理程序代码
+}

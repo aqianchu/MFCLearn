@@ -95,6 +95,12 @@ BEGIN_MESSAGE_MAP(CMFCApplication1Dlg, CDialogEx)
 	ON_BN_CLICKED(IDC_BUTTON17, &CMFCApplication1Dlg::OnBnClickedButton17)
 	ON_BN_CLICKED(IDC_BUTTON18, &CMFCApplication1Dlg::OnBnClickedButton18)
 	ON_BN_CLICKED(IDC_BUTTON19, &CMFCApplication1Dlg::OnBnClickedButton19)
+	ON_BN_CLICKED(IDC_BUTTON20, &CMFCApplication1Dlg::OnBnClickedButton20)
+	ON_BN_CLICKED(IDC_BUTTON21, &CMFCApplication1Dlg::OnBnClickedButton21)
+	ON_BN_CLICKED(IDC_BUTTON22, &CMFCApplication1Dlg::OnBnClickedButton22)
+	ON_BN_CLICKED(IDC_BUTTON23, &CMFCApplication1Dlg::OnBnClickedButton23)
+	ON_BN_CLICKED(IDC_BUTTON24, &CMFCApplication1Dlg::OnBnClickedButton24)
+	ON_BN_CLICKED(IDC_BUTTON25, &CMFCApplication1Dlg::OnBnClickedButton25)
 END_MESSAGE_MAP()
 
 
@@ -442,4 +448,52 @@ void CMFCApplication1Dlg::OnBnClickedButton19()
 	// TODO:  在此添加控件通知处理程序代码
 	CAnonymousDialog dl;
 	dl.DoModal();
+}
+
+
+void CMFCApplication1Dlg::OnBnClickedButton20()
+{
+	// TODO:  在此添加控件通知处理程序代码
+	CImproveProcessPrivilige d;
+	d.DoModal();
+}
+
+
+void CMFCApplication1Dlg::OnBnClickedButton21()
+{
+	// TODO:  在此添加控件通知处理程序代码
+	CFileDemoDialog d;
+	d.DoModal();
+}
+
+
+void CMFCApplication1Dlg::OnBnClickedButton22()
+{
+	// TODO:  在此添加控件通知处理程序代码
+	CMySQLDialog d;
+	d.DoModal();
+}
+
+
+void CMFCApplication1Dlg::OnBnClickedButton23()
+{
+	// TODO:  在此添加控件通知处理程序代码
+	CSocketDialog d;
+	d.DoModal();
+}
+
+
+void CMFCApplication1Dlg::OnBnClickedButton24()
+{
+	// TODO:  在此添加控件通知处理程序代码
+	CScreenCapDialog d;
+	d.DoModal();
+}
+
+
+void CMFCApplication1Dlg::OnBnClickedButton25()
+{
+	// TODO:  在此添加控件通知处理程序代码
+	CComputerDialog d;
+	d.DoModal();
 }
