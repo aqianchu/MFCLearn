@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocketServer", "SocketServe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyUtils", "MyUtils\MyUtils.vcxproj", "{08371D8C-BB57-484B-BD42-ED99B13B931F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GetScreenPixel", "GetScreenPixel\GetScreenPixel.vcxproj", "{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -51,6 +53,16 @@ Global
 		{08371D8C-BB57-484B-BD42-ED99B13B931F}.Release|Win32.ActiveCfg = Release|Win32
 		{08371D8C-BB57-484B-BD42-ED99B13B931F}.Release|Win32.Build.0 = Release|Win32
 		{08371D8C-BB57-484B-BD42-ED99B13B931F}.Release|x64.ActiveCfg = Release|Win32
+		{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}.Debug|Win32.Build.0 = Debug|Win32
+		{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}.Debug|x64.ActiveCfg = Debug|Win32
+		{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}.Release|Win32.ActiveCfg = Release|Win32
+		{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}.Release|Win32.Build.0 = Release|Win32
+		{BC0B66F7-A3F5-4601-815F-CC9B3EDBABC0}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
